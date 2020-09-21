@@ -1,4 +1,6 @@
-const transform = index => "X";
+let romanize = require('romanize');
+
+const transform = index => romanize(index);
 
 export {
     transform
